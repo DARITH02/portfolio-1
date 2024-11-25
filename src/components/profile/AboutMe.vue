@@ -6,7 +6,10 @@ import {
   mdiLanguageJavascript,
   mdiGithub,
   mdiLanguageHtml5,
+  mdiLanguagePhp,
+  mdiLanguageCsharp,
 } from "@mdi/js";
+
 </script>
 
 <template>
@@ -52,6 +55,20 @@ import {
               class="text-red-500"
               type="mdi"
               :path="mdiLanguageHtml5"
+            ></svg-icon>
+          </span>
+          <span class="w-10 h-10 p-2 bg-white rounded-3xl overflow-hidden">
+            <svg-icon
+              class="text-red-500"
+              type="mdi"
+              :path="mdiLanguagePhp"
+            ></svg-icon>
+          </span>
+          <span class="w-10 h-10 p-2 bg-white rounded-3xl overflow-hidden">
+            <svg-icon
+              class="text-red-500"
+              type="mdi"
+              :path="mdiLanguageCsharp"
             ></svg-icon>
           </span>
         </div>
